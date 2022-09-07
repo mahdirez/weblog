@@ -4,12 +4,12 @@ window.addEventListener('scroll', ()=>{
 })
 
 const Menu = document.querySelector('#menu-icon');
-const navbar = document.querySelector('.navbar')
+const nav = document.querySelector('.navbar')
 
 Menu.addEventListener('click',()=>{
-    navbar.classList.toggle('open')
+    nav.classList.toggle('open')
 })
 
 window.onscroll = ()=>{
-    navbar.classList.remove('open')
+    nav.classList.remove('open')
 }
