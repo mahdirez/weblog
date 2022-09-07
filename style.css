@@ -183,12 +183,15 @@ section {
   width: 65%;
 }
 
-.latter input:last-child{
+.latter .div-latter{
   background: var(--main-color);
   color: var(--bg-color);
   border: none;
   outline: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 35%;
   border-radius:30px;
   -webkit-border-radius:30px;
