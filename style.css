@@ -189,9 +189,6 @@ section {
   border: none;
   outline: none;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 35%;
   border-radius:30px;
   -webkit-border-radius:30px;
