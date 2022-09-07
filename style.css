@@ -162,7 +162,7 @@ section {
 }
 
 .latter{
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   border: 2px solid var(--main-color);
@@ -180,6 +180,7 @@ section {
   border: none;
   border-radius: 30px;
   outline: none;
+  width: 65%;
 }
 
 .latter input:last-child{
@@ -190,6 +191,7 @@ section {
   border-radius: 30px;
   padding: 16px 40px;
   cursor: pointer;
+  width: 35%;
 }
 
 .home-img img {
@@ -208,6 +210,12 @@ section {
 	display: flex;
 	flex-direction: column;
     height: 164vh;
+  }
+}
+
+@media (max-width:768px){
+  .latter{
+    width: 100%;
   }
 }
 
