@@ -176,14 +176,28 @@ section {
 
 .latter input:first-child{
   background-color: transparent;
-  padding: 16px 40px;
+  padding: 16px  40px;
   border: none;
   border-radius: 30px;
   outline: none;
   width: 65%;
 }
 
-.latter .div-latter{
+/* .latter .div-latter{
+  background: var(--main-color);
+  color: var(--bg-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 35%;
+  border-radius:30px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  -ms-border-radius:30px;
+  -o-border-radius:30px;
+} */
+
+.latter input:last-child{
   background: var(--main-color);
   color: var(--bg-color);
   border: none;
