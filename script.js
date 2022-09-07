@@ -1,6 +1,7 @@
 const header = document.querySelector('header')
 window.addEventListener('scroll', ()=>{
     header.classList.toggle('sticky', window.scrollY>0)
+    nav.classList.remove('open')
 })
 
 const Menu = document.querySelector('#menu-icon');
@@ -10,6 +11,6 @@ Menu.addEventListener('click',()=>{
     nav.classList.toggle('open')
 })
 
-window.onscroll = ()=>{
-    nav.classList.remove('open')
-}
+// window.onscroll = ()=>{
+//     nav.classList.remove('open')
+// }
