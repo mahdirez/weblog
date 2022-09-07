@@ -189,7 +189,6 @@ section {
   border: none;
   outline: none;
   border-radius: 30px;
-  padding: 16px 40px;
   cursor: pointer;
   width: 35%;
 }
@@ -211,13 +210,16 @@ section {
 	flex-direction: column;
     height: 164vh;
   }
-}
-
-@media (max-width:768px){
   .latter{
     width: 100%;
   }
 }
+
+/* @media (max-width:768px){
+  .latter{
+    width: 100%;
+  }
+} */
 
 /*section container*/
 
