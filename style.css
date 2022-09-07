@@ -162,7 +162,7 @@ section {
 }
 
 .latter{
-  width: 70%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   border: 2px solid var(--main-color);
