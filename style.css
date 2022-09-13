@@ -5,7 +5,6 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  scroll-behavior: smooth;
 }
 
 :root {
@@ -183,20 +182,6 @@ section {
   width: 65%;
 }
 
-/* .latter .div-latter{
-  background: var(--main-color);
-  color: var(--bg-color);
-  border: none;
-  outline: none;
-  cursor: pointer;
-  width: 35%;
-  border-radius:30px;
-  -webkit-border-radius:30px;
-  -moz-border-radius:30px;
-  -ms-border-radius:30px;
-  -o-border-radius:30px;
-} */
-
 .latter input:last-child{
   background: var(--main-color);
   color: var(--bg-color);
@@ -233,19 +218,11 @@ section {
   }
 }
 
-/* @media (max-width:768px){
-  .latter{
-    width: 100%;
-  }
-} */
-
-/*section container*/
 
 .container {
   padding: 70px 5%;
   display: flex;
   flex-wrap: wrap;
-  /* gap: 1rem; */
 }
 
 .container-box {
